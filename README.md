@@ -9,4 +9,7 @@ Any portions of the code that are not covered by Epic's EULA are additionally li
 # Notable changes from original
 Note: Not a fully exhaustive list.
 
+* Added ModularActor
+* Added ModularDefaultPawn
+* Added ModularHUD
 
