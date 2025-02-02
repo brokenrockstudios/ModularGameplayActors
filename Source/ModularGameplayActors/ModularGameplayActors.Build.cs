@@ -2,13 +2,12 @@
 // See the LICENSE file for details.
 
 using UnrealBuildTool;
-using System.IO; // for Path
 
 public class ModularGameplayActors : ModuleRules
 {
 	public ModularGameplayActors(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicIncludePaths.AddRange(
 			new string[] {
